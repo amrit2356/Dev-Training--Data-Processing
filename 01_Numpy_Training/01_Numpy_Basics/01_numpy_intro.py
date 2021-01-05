@@ -16,7 +16,7 @@ a = np.array([1, 2, 3])
 print(a)
 
 # 2-D numpy Array
-b = np.array([[1, 2, 3], [4, 5, 6]],dtype = 'int16')
+b = np.array([[1, 2, 3], [4, 5, 6]], dtype='int16')
 print(b)
 
 # Get Dimensions of Numpy Array
@@ -27,7 +27,7 @@ rows, col = b.shape
 print("Rows: {} and Columns {}".format(rows, col))
 
 # Get Datatype of the Numpy Array
-data_type = b.dtype 
+data_type = b.dtype
 print("Datatype of the given Numpy array: {}".format(data_type))
 
 # Get item size of numpy array
