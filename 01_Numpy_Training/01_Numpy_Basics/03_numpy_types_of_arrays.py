@@ -34,6 +34,8 @@ print("Repeat of an Array: \n{}".format(r1))
 
 """
 Note: Problem Regarding Copying numpy Arrays
+When we use the assignment operator(=), with numpy arrays to copy the numpy array from one var 
+to another, it causes the 
 """
 a = np.array([1, 2, 3])
 # b = a

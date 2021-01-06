@@ -19,6 +19,8 @@ Slicing in Numpy:
     Format:
     [rowstart: rowend: row_stepsize, colstart: colend: col_stepsize]
 
+Note: You can use lists([0,2,5,5]) to select specific indices.
+
 Traversal in Numpy:
     +ve Index Value: 0 to n-1
     -ve Index Value: -1 to -(n-2)
